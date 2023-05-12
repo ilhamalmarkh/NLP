@@ -18,4 +18,5 @@ def get_bot_response():
     return result
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    run_with_ngrok(app)
+    app.run()
